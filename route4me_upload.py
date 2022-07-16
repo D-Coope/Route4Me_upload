@@ -38,7 +38,7 @@ for pc in postcodes_list:
 
 
 # Each individual has a unique API key found in the "My Account tab"
-API_KEY = "3A8B3341D5B4DDB4BA6F42B64C1EA5E3"
+API_KEY = # insert API key here
 r4m = Route4Me(API_KEY)
 optimization = r4m.optimization
 r4m_addresses = r4m.address
